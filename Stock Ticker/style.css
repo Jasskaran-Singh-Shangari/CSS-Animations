@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+}
+img{
+    width:150px;
+    height:auto;
+    padding:12px;
+    margin: 12px;
+}
+
+.stock-ticker{
+    font-size:15px;
+    display:flex;
+    border-block: 2px black solid;
+    padding-block:8px;
+    overflow:hidden;
+}
+
+.stock-ticker ul{
+    list-style-type: none;
+    display:flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    overflow:hidden;
+    animation: marquee 20s linear infinite;
+}
+.stock-ticker ul:hover{
+    animation-play-state: paused;
+}
+
+.stock-ticker .name, .price{
+    font-weight:bolder;
+}
+
+p::before{
+    content:" ";
+    display: block;
+    width:10px;
+    height:10px;
+    background-color: red;
+
+}
+p::after{
+    content:" ";
+}
+.minus::before{
+    content:"↓";
+}
+
+.plus::before{
+    content:"↑";
+}
+
+.minus::before, 
+.minus .change{
+    color:red;
+}
+
+.stock-ticker .plus::before, 
+.stock-ticker .plus .change{
+    color:green;
+}
+
+@keyframes marquee{
+    to{
+        transform:translateX(-100%);
+    }
+}
