@@ -6,3 +6,6 @@ This animation can be used to display eye catching information such as the Stock
 This animation is most useful when you want to make the Website look more dynamic to the viewer, since the elements are appearing as the viewer scrolls, i.e. we give the control to the viewer. 
 ![Alt Text](https://github.com/REBEL-OSUDA/CSS-Animations/blob/main/On-View%20Animation/On-View%20Animation%20-%20Google%20Chrome%202024-10-30%2013-03-12.gif)
 
+# Animation 3
+This animation uses some out of the box proprties to make it look like the border is rotating.
+![Alt Text](https://github.com/REBEL-OSUDA/CSS-Animations/blob/main/Border-infinite%20animation.gif)
