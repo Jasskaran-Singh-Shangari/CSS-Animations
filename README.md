@@ -9,3 +9,7 @@ This animation is most useful when you want to make the Website look more dynami
 # Animation 3
 This animation uses some out of the box proprties to make it look like the border is rotating.
 ![Alt Text](https://github.com/REBEL-OSUDA/CSS-Animations/blob/main/Border-infinite%20animation.gif)
+
+# Animation 4
+This project focuses on Parallax Scroll Animation, one of the most eye catchy animation. This animation can make even the simplest websites interesting to look at.
+![Alt Text]()
