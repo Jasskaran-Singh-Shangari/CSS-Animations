@@ -13,3 +13,7 @@ This animation uses some out of the box proprties to make it look like the borde
 # Animation 4
 This project focuses on Parallax Scroll Animation, one of the most eye catchy animation. This animation can make even the simplest websites interesting to look at.
 ![Alt Text]()
+
+# Animation 5
+This animation uses Hexagons which can be made using "clip-path" or "border", it has many variations and, I would like to implement it in Light mode(black & white) and Dark mode(colorful).
+![Alt Text]()
