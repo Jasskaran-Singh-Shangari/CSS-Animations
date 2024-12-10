@@ -16,4 +16,8 @@ This project focuses on Parallax Scroll Animation, one of the most eye catchy an
 
 # Animation 5
 This animation uses Hexagons which can be made using "clip-path" or "border", it has many variations and, I would like to implement it in Light mode(black & white) and Dark mode(colorful).
-![Alt Text]()
+![Alt Text](https://github.com/REBEL-OSUDA/CSS-Animations/blob/main/Hexagon/Hexagon%20-%20Google%20Chrome%202024-12-09%2023-55-06.gif)
+
+This animatins can be made by simply applying ::after element on each hexagon, sort of like a layer over it.
+![Alt Text](https://github.com/REBEL-OSUDA/CSS-Animations/blob/main/Hexagon/Hexagon%20-%20Google%20Chrome%202024-12-10%2000-00-59.gif)
+
